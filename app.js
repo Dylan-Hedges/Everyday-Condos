@@ -16,8 +16,18 @@ var commentRoutes  = require("./routes/comments"),
     indexRoutes      = require("./routes/index")
 
 //-----MongoDb Connection-----------------
-mongoose.connect(process.env.MLAB_CONNECTION, {useMongoClient: true});
+
+if (process.env.NODE_ENV === 'production') {
+    //Production DB (mlab)
+    mongoose.connect(process.env.MLAB_CONNECTION, {useMongoClient: true});
+} else {
+    //Local DB
+    mongoose.connect("mongodb://localhost/everyday_condos", {useMongoClient: true});
+}
+
 mongoose.Promise = global.Promise;
+
+
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
