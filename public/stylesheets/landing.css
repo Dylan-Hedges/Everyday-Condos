@@ -53,24 +53,24 @@ body {
 
 /*Adds background images to <li>*/
 .slideshow li:nth-child(1) { 
-  background-image: url(http://i.imgur.com/K3mPv14.jpg) 
+  background-image: url(https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb) 
 }
 .slideshow li:nth-child(2) { 
-  background-image: url(http://i.imgur.com/SBEmFpv.jpg);
+  background-image: url(https://images.pexels.com/photos/366283/tianjin-twilight-city-scenery-366283.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
   /*animation-delay: 10s; start the animation for image 2 after 10 seconds*/
-  animation-delay: 10s; 
+  animation-delay: 5s; 
 }
 .slideshow li:nth-child(3) { 
-  background-image: url(http://i.imgur.com/emvhOnb.jpg);
-  animation-delay: 20s; 
+  background-image: url(https://images.pexels.com/photos/169677/pexels-photo-169677.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+  animation-delay: 15s; 
 }
 .slideshow li:nth-child(4) { 
-  background-image: url(http://i.imgur.com/2LSMCmJ.jpg);
-  animation-delay: 30s; 
+  background-image: url(https://images.pexels.com/photos/358502/pexels-photo-358502.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+  animation-delay: 25s; 
 }
 .slideshow li:nth-child(5) { 
-  background-image: url(http://i.imgur.com/TVGe0Ef.jpg);
-  animation-delay: 40s; 
+  background-image: url(https://images.pexels.com/photos/417192/pexels-photo-417192.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+  animation-delay: 35s; 
 }
 
 /*Creates animation (refered to above using "animation:")*/
