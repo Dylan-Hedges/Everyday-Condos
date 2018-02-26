@@ -18,10 +18,19 @@
     padding: 0 375px 0 375px;
 }
 
-.displaycondostyle{
+.displaycondostyle, .addnewcondostyle{
     padding: 0 100px 0 100px;
+}
+
+.addnewcondostyle h1{
+    text-align: center;
 }
 
 .form-control {
     margin: 10px 0 10px 0;
+}
+
+.condothumbnailstyle {
+    width: 100% !important;
+    height: 175px !important;
 }

@@ -62,5 +62,5 @@ app.use(commentRoutes);
 
 //--------------------LISTENER--------------------
 app.listen(process.env.PORT, process.env.IP, function(){
-   console.log("YelpCamp Server has startd") 
+   console.log("Every Condos Server has started") 
 });
