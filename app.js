@@ -6,13 +6,13 @@ var express         = require("express"),
     passport        = require("passport"),
     LocalStrategy   = require("passport-local"),
     methodOverride  = require("method-override"),
-    Campground      = require("./models/campground"),
+    Condo           = require("./models/condo"),
     Comment         = require("./models/comment"),
     User            = require("./models/user"),
     seedDB          = require("./seeds");
     
 var commentRoutes  = require("./routes/comments"),
-    campgroundRoutes = require("./routes/campgrounds"),
+    condoRoutes = require("./routes/condos"),
     indexRoutes      = require("./routes/index")
 
 //-----MongoDb Connection-----------------
@@ -57,7 +57,7 @@ app.use(function(req, res, next){
     next();
 });
 app.use(indexRoutes);
-app.use(campgroundRoutes);
+app.use(condoRoutes);
 app.use(commentRoutes);
 
 //--------------------LISTENER--------------------
