@@ -53,23 +53,23 @@ body {
 
 /*Adds background images to <li>*/
 .slideshow li:nth-child(1) { 
-  background-image: url(https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb) 
+  background-image: url(https://images.pexels.com/photos/1712/sunglasses-apple-iphone-desk.jpg?cs=srgb&dl=apple-computer-designer-1712.jpg&fm=jpg) 
 }
 .slideshow li:nth-child(2) { 
-  background-image: url(https://images.pexels.com/photos/366283/tianjin-twilight-city-scenery-366283.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+  background-image: url(https://images.pexels.com/photos/1229942/pexels-photo-1229942.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   /*animation-delay: 10s; start the animation for image 2 after 10 seconds*/
   animation-delay: 5s; 
 }
 .slideshow li:nth-child(3) { 
-  background-image: url(https://images.pexels.com/photos/169677/pexels-photo-169677.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+  background-image: url(https://images.pexels.com/photos/1591/technology-music-sound-things.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   animation-delay: 15s; 
 }
 .slideshow li:nth-child(4) { 
-  background-image: url(https://images.pexels.com/photos/358502/pexels-photo-358502.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+  background-image: url(https://images.pexels.com/photos/221556/pexels-photo-221556.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   animation-delay: 25s; 
 }
 .slideshow li:nth-child(5) { 
-  background-image: url(https://images.pexels.com/photos/417192/pexels-photo-417192.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb);
+  background-image: url(https://images.pexels.com/photos/1336873/pexels-photo-1336873.jpeg?cs=srgb&dl=apparel-assortment-boutique-1336873.jpg&fm=jpg);
   animation-delay: 35s; 
 }
 
